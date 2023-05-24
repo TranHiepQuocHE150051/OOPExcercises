@@ -1,0 +1,15 @@
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\bin\Debug\net6.0\OOPExercises.exe
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\bin\Debug\net6.0\OOPExercises.deps.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\bin\Debug\net6.0\OOPExercises.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\bin\Debug\net6.0\OOPExercises.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\bin\Debug\net6.0\OOPExercises.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\refint\OOPExercises.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\OOPExercises.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExercises\obj\Debug\net6.0\ref\OOPExercises.dll

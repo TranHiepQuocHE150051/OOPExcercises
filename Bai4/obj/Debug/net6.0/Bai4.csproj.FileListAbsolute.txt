@@ -1,0 +1,15 @@
+C:\Users\This PC\source\repos\OOPExercises\Bai4\bin\Debug\net6.0\Bai4.exe
+C:\Users\This PC\source\repos\OOPExercises\Bai4\bin\Debug\net6.0\Bai4.deps.json
+C:\Users\This PC\source\repos\OOPExercises\Bai4\bin\Debug\net6.0\Bai4.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\Bai4\bin\Debug\net6.0\Bai4.dll
+C:\Users\This PC\source\repos\OOPExercises\Bai4\bin\Debug\net6.0\Bai4.pdb
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.dll
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\refint\Bai4.dll
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.pdb
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\Bai4.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\Bai4\obj\Debug\net6.0\ref\Bai4.dll
