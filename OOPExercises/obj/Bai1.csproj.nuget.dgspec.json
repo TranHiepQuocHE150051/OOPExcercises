@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExercises\\Bai1.csproj": {}
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\OOPExercises\\Bai1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExercises\\Bai1.csproj": {
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\OOPExercises\\Bai1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExercises\\Bai1.csproj",
+        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\OOPExercises\\Bai1.csproj",
         "projectName": "Bai1",
-        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExercises\\Bai1.csproj",
+        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\OOPExercises\\Bai1.csproj",
         "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExercises\\obj\\",
+        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\OOPExercises\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

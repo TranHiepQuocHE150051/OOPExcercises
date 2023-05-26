@@ -1,0 +1,82 @@
+[
+  {
+    "FullName": "Tran Hiep Quoc",
+    "DoB": "19/10/2001",
+    "sex": "Male",
+    "PhoneNumber": "0932246230",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.5,
+    "BestReward": "National Prize"
+  },
+  {
+    "FullName": "Le Trung Thanh",
+    "DoB": "26/11/2001",
+    "sex": "Male",
+    "PhoneNumber": "0961484326",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.0,
+    "BestReward": "Excellent Student"
+  },
+  {
+    "FullName": "Do Thanh Trung",
+    "DoB": "02/11/2001",
+    "sex": "Male",
+    "PhoneNumber": "0918619369",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.0,
+    "BestReward": "Excellent Student"
+  },
+  {
+    "FullName": "Luong Duc Thinh",
+    "DoB": "26/02/2001",
+    "sex": "Male",
+    "PhoneNumber": "0919317831",
+    "UniversityName": "Hanoi Medical University",
+    "graduationLevel": 1,
+    "Gpa": 8.8,
+    "BestReward": "Excellent Student"
+  },
+  {
+    "FullName": "Nguyen Ha Hoang",
+    "DoB": "13/02/2002",
+    "sex": "Male",
+    "PhoneNumber": "0961484325",
+    "UniversityName": "Hanoi Technology University",
+    "graduationLevel": 2,
+    "Gpa": 8.0,
+    "BestReward": "Excellent Student"
+  },
+  {
+    "FullName": "Nguyen Gia Phu",
+    "DoB": "07/09/2001",
+    "sex": "Male",
+    "PhoneNumber": "0961161252",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.0,
+    "BestReward": "Good Student"
+  },
+  {
+    "FullName": "Nguyen Trung Hieu",
+    "DoB": "26/11/1998",
+    "sex": "Male",
+    "PhoneNumber": "0961484329",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.0,
+    "BestReward": "Excellent Student"
+  },
+  {
+    "FullName": "Nguyen Thu Tuoi",
+    "DoB": "19/11/2001",
+    "sex": "Female",
+    "PhoneNumber": "0961484321",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1,
+    "Gpa": 8.0,
+    "BestReward": "Excellent Student"
+  }
+]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai2\\Bai2.csproj": {}
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai2\\Bai2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai2\\Bai2.csproj": {
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai2\\Bai2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai2\\Bai2.csproj",
+        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai2\\Bai2.csproj",
         "projectName": "Bai2",
-        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai2\\Bai2.csproj",
+        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai2\\Bai2.csproj",
         "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai2\\obj\\",
+        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

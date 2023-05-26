@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai5\\Bai5.csproj": {}
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai5\\Bai5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai5\\Bai5.csproj": {
+    "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai5\\Bai5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai5\\Bai5.csproj",
+        "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai5\\Bai5.csproj",
         "projectName": "Bai5",
-        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai5\\Bai5.csproj",
+        "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai5\\Bai5.csproj",
         "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai5\\obj\\",
+        "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

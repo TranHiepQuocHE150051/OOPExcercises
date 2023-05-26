@@ -1,0 +1,15 @@
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\bin\Debug\net6.0\Demo.exe
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\bin\Debug\net6.0\Demo.deps.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\bin\Debug\net6.0\Demo.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\bin\Debug\net6.0\Demo.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\bin\Debug\net6.0\Demo.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\refint\Demo.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\Demo.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Demo\obj\Debug\net6.0\ref\Demo.dll

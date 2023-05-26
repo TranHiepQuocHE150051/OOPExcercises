@@ -1,0 +1,42 @@
+[
+  {
+    "FullName": "Tran Hiep Quoc",
+    "DoB": "19/10/2001",
+    "sex": "Male",
+    "PhoneNumber": "0932246230",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1
+  },
+  {
+    "FullName": "Le Trung Thanh",
+    "DoB": "26/11/2001",
+    "sex": "Male",
+    "PhoneNumber": "0961484326",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1
+  },
+  {
+    "FullName": "Do Thanh Trung",
+    "DoB": "02/11/2001",
+    "sex": "Male",
+    "PhoneNumber": "0918619369",
+    "UniversityName": "FPT University",
+    "graduationLevel": 1
+  },
+  {
+    "FullName": "Luong Duc Thinh",
+    "DoB": "26/02/2001",
+    "sex": "Male",
+    "PhoneNumber": "0919317831",
+    "UniversityName": "Hanoi Medical University",
+    "graduationLevel": 1
+  },
+  {
+    "FullName": "Nguyen Ha Hoang",
+    "DoB": "13/02/2002",
+    "sex": "Male",
+    "PhoneNumber": "0961484325",
+    "UniversityName": "Hanoi Technology University",
+    "graduationLevel": 2
+  }
+]

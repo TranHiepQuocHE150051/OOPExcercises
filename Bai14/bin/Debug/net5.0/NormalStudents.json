@@ -1,0 +1,42 @@
+[
+  {
+    "FullName": "Vu Ngoc Hieu",
+    "DoB": "31/05/2001",
+    "sex": "Male",
+    "PhoneNumber": "0932151232",
+    "UniversityName": "Foreign Trade University",
+    "graduationLevel": 1,
+    "EnglishScore": 8,
+    "EntryTestScore": 8 
+  },
+  {
+    "FullName": "Bui Trung Hieu",
+    "DoB": "08/10/2001",
+    "sex": "Male",
+    "PhoneNumber": "0961484326",
+    "UniversityName": "National Economy University",
+    "graduationLevel": 1,
+    "EnglishScore": 7,
+    "EntryTestScore": 8
+  },
+  {
+    "FullName": "Nguyen Thuy Linh",
+    "DoB": "12/08/2001",
+    "sex": "Female",
+    "PhoneNumber": "0918619369",
+    "UniversityName": "TBMU",
+    "graduationLevel": 1,
+    "EnglishScore": 7,
+    "EntryTestScore": 9
+  },
+  {
+    "FullName": "Pham Minh Thao",
+    "DoB": "26/02/2001",
+    "sex": "Female",
+    "PhoneNumber": "0919317831",
+    "UniversityName": "Hanoi Medical University",
+    "graduationLevel": 1,
+    "EnglishScore": 9,
+    "EntryTestScore": 9
+  }
+]

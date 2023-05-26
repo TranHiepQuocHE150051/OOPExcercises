@@ -1,0 +1,15 @@
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\bin\Debug\net6.0\Bai1.exe
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\bin\Debug\net6.0\Bai1.deps.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\bin\Debug\net6.0\Bai1.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\bin\Debug\net6.0\Bai1.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\bin\Debug\net6.0\Bai1.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\refint\Bai1.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\Bai1.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\OOPExercises\obj\Debug\net6.0\ref\Bai1.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai4\\Bai4.csproj",
+      "projectUniqueName": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai4\\Bai4.csproj",
       "projectName": "Bai4",
-      "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai4\\Bai4.csproj",
+      "projectPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai4\\Bai4.csproj",
       "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\Bai4\\obj\\",
+      "outputPath": "C:\\Users\\This PC\\source\\repos\\OOPExercises\\OOPExcercises\\Bai4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
