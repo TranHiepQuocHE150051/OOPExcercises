@@ -1,0 +1,16 @@
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.exe
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.deps.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.runtimeconfig.dev.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\bin\Debug\net5.0\Bai11.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\refint\Bai11.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\Bai11.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai11\obj\Debug\net5.0\ref\Bai11.dll

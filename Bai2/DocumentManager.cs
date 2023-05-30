@@ -35,15 +35,7 @@ namespace Bai2
         {
             return this.documents;
         }
-        public List<int> GetDocumentsIdList()
-        {
-            List<int> ids = new List<int>();
-            foreach(var document in this.documents)
-            {
-                ids.Add(document.Id);
-            }
-            return ids;
-        }
+        
 
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.exe
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.deps.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.runtimeconfig.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.runtimeconfig.dev.json
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\bin\Debug\net5.0\Bai12.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.csproj.AssemblyReference.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.AssemblyInfoInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.AssemblyInfo.cs
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.csproj.CoreCompileInputs.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\refint\Bai12.dll
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.pdb
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\Bai12.genruntimeconfig.cache
+C:\Users\This PC\source\repos\OOPExercises\OOPExcercises\Bai12\obj\Debug\net5.0\ref\Bai12.dll
