@@ -22,22 +22,74 @@ while (true)
                 {
                     case "a":
                         {
-                            try
-                            {
+
+                                string fullname;
+                                string birthday;
+                                string phone;
+                                string email;
                                 Console.WriteLine("Enter ID: ");
                                 int id = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Enter full name: ");
-                                string fullname = Console.ReadLine();
-                                Utility.ValidateFullName(fullname);
-                                Console.WriteLine("Enter birth day: ");
-                                string birthday = Console.ReadLine();
-                                Utility.ValidateDate(birthday);
-                                Console.WriteLine("Enter phone: ");
-                                string phone = Console.ReadLine();
-                                Utility.ValidatePhone(phone);
-                                Console.WriteLine("Enter email: ");
-                                string email = Console.ReadLine();
-                                Utility.ValidateEmail(email);
+                                while (true)
+                                {
+                                    try
+                                    {
+                                        Console.WriteLine("Enter full name: ");
+                                         fullname = Console.ReadLine();
+                                        Utility.ValidateFullName(fullname);
+                                        break;
+                                    } catch (FullNameException ex)
+                                    {
+                                        Console.WriteLine("Wrong format for full name!");
+                                        continue;
+                                    } 
+                                
+                                }  
+                                while (true)
+                                {
+                                    try
+                                    {
+                                    Console.WriteLine("Enter birth day: ");
+                                    birthday = Console.ReadLine();
+                                    Utility.ValidateDate(birthday);
+                                    break;
+                                    } catch (BirthdayException ex)
+                                    {
+                                        Console.WriteLine("Wrong format for birthday (dd/MM/yyyy)!");
+                                        continue;
+                                    }                                
+                                }
+                                while (true)
+                                {
+                                    try
+                                    {
+                                        Console.WriteLine("Enter phone: ");
+                                        phone = Console.ReadLine();
+                                        Utility.ValidatePhone(phone);
+                                        break;
+                                    }
+                                    catch (PhoneException ex)
+                                    {
+                                        Console.WriteLine("Wrong format for phone (start with 0 or 84 and follow by 9 numbers)!");
+                                        continue;
+                                    }
+
+                                }
+                                while (true)
+                                {
+                                    try
+                                    {
+                                        Console.WriteLine("Enter email: ");
+                                         email = Console.ReadLine();
+                                        Utility.ValidateEmail(email);
+                                        break;
+                                    }
+                                    catch (PhoneException ex)
+                                    {
+                                        Console.WriteLine("Wrong format for email !");
+                                        continue;
+                                    }
+
+                                }                            
                                 Console.WriteLine("Enter year of experience: ");
                                 int Exyear= Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine("Enter pro skill: ");
@@ -45,7 +97,6 @@ while (true)
                                 Employee experience = new Experience(id,fullname, DateTime.Parse(birthday), phone,email,0,manager.GetAllEmployees().Count+1,
                                     new List<Certificate>(),Exyear,skill
                                     );
-
                                 Console.WriteLine("Enter number of certificate");
                                 int certificateNumber = Convert.ToInt32(Console.ReadLine());
                                 for (int i = 0; i < certificateNumber; i++)
@@ -62,48 +113,86 @@ while (true)
                                     experience.Certificates.Add(new Certificate(certificateId, certificateName, certificateRank, DateTime.Parse(certificateDate)));                                                                 
                                 }
                                 manager.AddNewEmployee(experience);
-                            }
-                            catch (FullNameException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch(BirthdayException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (PhoneException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (EmailException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch(Exception ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
+                                Console.WriteLine(experience.Employee_count);
+
+                            
+                            
                             break;
                         }
                     case "b":
                         {
-                            try
-                            {
+                            
                                 Console.WriteLine("Enter ID: ");
                                 int id = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Enter full name: ");
-                                string fullname = Console.ReadLine();
-                                Utility.ValidateFullName(fullname);
-                                Console.WriteLine("Enter birth day: ");
-                                string birthday = Console.ReadLine();
-                                Utility.ValidateDate(birthday);
-                                Console.WriteLine("Enter phone: ");
-                                string phone = Console.ReadLine();
-                                Utility.ValidatePhone(phone);
-                                Console.WriteLine("Enter email: ");
-                                string email = Console.ReadLine();
-                                Utility.ValidateEmail(email);
-                                Console.WriteLine("Enter graduation date : ");
+                            string fullname;
+                            string birthday;
+                            string phone;
+                            string email;
+                            
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter full name: ");
+                                    fullname = Console.ReadLine();
+                                    Utility.ValidateFullName(fullname);
+                                    break;
+                                }
+                                catch (FullNameException ex)
+                                {
+                                    Console.WriteLine("Wrong format for full name!");
+                                    continue;
+                                }
+
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter birth day: ");
+                                    birthday = Console.ReadLine();
+                                    Utility.ValidateDate(birthday);
+                                    break;
+                                }
+                                catch (BirthdayException ex)
+                                {
+                                    Console.WriteLine("Wrong format for birthday (dd/MM/yyyy)!");
+                                    continue;
+                                }
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter phone: ");
+                                    phone = Console.ReadLine();
+                                    Utility.ValidatePhone(phone);
+                                    break;
+                                }
+                                catch (PhoneException ex)
+                                {
+                                    Console.WriteLine("Wrong format for phone (start with 0 or 84 and follow by 9 numbers)!");
+                                    continue;
+                                }
+
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter email: ");
+                                    email = Console.ReadLine();
+                                    Utility.ValidateEmail(email);
+                                    break;
+                                }
+                                catch (PhoneException ex)
+                                {
+                                    Console.WriteLine("Wrong format for email !");
+                                    continue;
+                                }
+
+                            }
+                            Console.WriteLine("Enter graduation date : ");
                                 string graduationDate = Console.ReadLine();
                                 Utility.ValidateDate(graduationDate);
                                 Console.WriteLine("Enter graduation rank : ");
@@ -131,48 +220,82 @@ while (true)
                                 }
                                 manager.AddNewEmployee(fresher);
 
-                            }
-                            catch (FullNameException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (BirthdayException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (PhoneException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (EmailException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (Exception ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
+                                                      
                             break ;
                         }
                     case "c":
                         {
-                            try
-                            {
+                            
                                 Console.WriteLine("Enter ID: ");
                                 int id = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Enter full name: ");
-                                string fullname = Console.ReadLine();
-                                Utility.ValidateFullName(fullname);
-                                Console.WriteLine("Enter birth day: ");
-                                string birthday = Console.ReadLine();
-                                Utility.ValidateDate(birthday);
-                                Console.WriteLine("Enter phone: ");
-                                string phone = Console.ReadLine();
-                                Utility.ValidatePhone(phone);
-                                Console.WriteLine("Enter email: ");
-                                string email = Console.ReadLine();
-                                Utility.ValidateEmail(email);
-                                Console.WriteLine("Enter majors : ");
+                            string fullname;
+                            string birthday;
+                            string phone;
+                            string email;
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter full name: ");
+                                    fullname = Console.ReadLine();
+                                    Utility.ValidateFullName(fullname);
+                                    break;
+                                }
+                                catch (FullNameException ex)
+                                {
+                                    Console.WriteLine("Wrong format for full name!");
+                                    continue;
+                                }
+
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter birth day: ");
+                                    birthday = Console.ReadLine();
+                                    Utility.ValidateDate(birthday);
+                                    break;
+                                }
+                                catch (BirthdayException ex)
+                                {
+                                    Console.WriteLine("Wrong format for birthday (dd/MM/yyyy)!");
+                                    continue;
+                                }
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter phone: ");
+                                    phone = Console.ReadLine();
+                                    Utility.ValidatePhone(phone);
+                                    break;
+                                }
+                                catch (PhoneException ex)
+                                {
+                                    Console.WriteLine("Wrong format for phone (start with 0 or 84 and follow by 9 numbers)!");
+                                    continue;
+                                }
+
+                            }
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Enter email: ");
+                                    email = Console.ReadLine();
+                                    Utility.ValidateEmail(email);
+                                    break;
+                                }
+                                catch (PhoneException ex)
+                                {
+                                    Console.WriteLine("Wrong format for email !");
+                                    continue;
+                                }
+
+                            }
+                            Console.WriteLine("Enter majors : ");
                                 string majors = Console.ReadLine();
                                 Console.WriteLine("Enter semester : ");
                                 int semester =Convert.ToInt32(Console.ReadLine());
@@ -198,28 +321,6 @@ while (true)
                                     fresher.Certificates.Add(new Certificate(certificateId, certificateName, certificateRank, DateTime.Parse(certificateDate)));
                                 }
                                 manager.AddNewEmployee(fresher);
-
-                            }
-                            catch (FullNameException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (BirthdayException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (PhoneException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (EmailException ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
-                            catch (Exception ex)
-                            {
-                                Console.WriteLine(ex.Message);
-                            }
                             break;
                         }
                 }
@@ -231,39 +332,77 @@ while (true)
                 int employeeId = Convert.ToInt32(Console.ReadLine());
                 if (manager.CheckEmployeeExist(employeeId))
                 {
-                    try
+                    string fullname;
+                    string birthday;
+                    string phone;
+                    string email;
+                    Console.WriteLine("Enter ID: ");
+                    int id = Convert.ToInt32(Console.ReadLine());
+                    while (true)
                     {
+                        try
+                        {
+                            Console.WriteLine("Enter full name: ");
+                            fullname = Console.ReadLine();
+                            Utility.ValidateFullName(fullname);
+                            break;
+                        }
+                        catch (FullNameException ex)
+                        {
+                            Console.WriteLine("Wrong format for full name!");
+                            continue;
+                        }
 
-                        Console.WriteLine("Enter full name: ");
-                        string fullname = Console.ReadLine();
-                        Utility.ValidateFullName(fullname);
-                        Console.WriteLine("Enter birth day: ");
-                        string birthday = Console.ReadLine();
-                        Utility.ValidateDate(birthday);
-                        Console.WriteLine("Enter phone: ");
-                        string phone = Console.ReadLine();
-                        Utility.ValidatePhone(phone);
-                        Console.WriteLine("Enter email: ");
-                        string email = Console.ReadLine();
-                        Utility.ValidateEmail(email);
-                        manager.UpdateEmployee(employeeId, new Employee(fullname, DateTime.Parse(birthday), phone, email));
                     }
-                    catch (FullNameException ex)
+                    while (true)
                     {
-                        Console.WriteLine(ex.Message);
+                        try
+                        {
+                            Console.WriteLine("Enter birth day: ");
+                            birthday = Console.ReadLine();
+                            Utility.ValidateDate(birthday);
+                            break;
+                        }
+                        catch (BirthdayException ex)
+                        {
+                            Console.WriteLine("Wrong format for birthday (dd/MM/yyyy)!");
+                            continue;
+                        }
                     }
-                    catch (BirthdayException ex)
+                    while (true)
                     {
-                        Console.WriteLine(ex.Message);
+                        try
+                        {
+                            Console.WriteLine("Enter phone: ");
+                            phone = Console.ReadLine();
+                            Utility.ValidatePhone(phone);
+                            break;
+                        }
+                        catch (PhoneException ex)
+                        {
+                            Console.WriteLine("Wrong format for phone (start with 0 or 84 and follow by 9 numbers)!");
+                            continue;
+                        }
+
                     }
-                    catch (PhoneException ex)
+                    while (true)
                     {
-                        Console.WriteLine(ex.Message);
+                        try
+                        {
+                            Console.WriteLine("Enter email: ");
+                            email = Console.ReadLine();
+                            Utility.ValidateEmail(email);
+                            break;
+                        }
+                        catch (PhoneException ex)
+                        {
+                            Console.WriteLine("Wrong format for email !");
+                            continue;
+                        }
+
                     }
-                    catch (EmailException ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
+                    manager.UpdateEmployee(employeeId, new Employee(fullname, DateTime.Parse(birthday), phone, email));
+                    
                 }
                 else
                 {

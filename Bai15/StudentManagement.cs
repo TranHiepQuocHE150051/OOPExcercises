@@ -73,6 +73,16 @@ namespace Bai15
             }
             return students;
         }
+        public void SortStudentsByYearAndType()
+        {
+           
+                foreach(Department department in this.departments)
+                {
+                    department.Students.OrderByDescending(s => s.StartYear);
+                }
+            
+        }
+        
         //public List<Student> GetHighestGradeStudentInEachDepartment()
         //{
         //    List<Student> students = new List<Student>();

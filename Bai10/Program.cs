@@ -37,6 +37,7 @@ namespace Bai10
         }
          static int countWords(String input)
         {
+            input = input.Trim();
             input = NormalizeString(input);
             string[] words = input.Split(' ');
             return words.Length;
