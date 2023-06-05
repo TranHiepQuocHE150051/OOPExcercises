@@ -83,7 +83,7 @@ while (true)
                                         Utility.ValidateEmail(email);
                                         break;
                                     }
-                                    catch (PhoneException ex)
+                                    catch (EmailException ex)
                                     {
                                         Console.WriteLine("Wrong format for email !");
                                         continue;
@@ -185,7 +185,7 @@ while (true)
                                     Utility.ValidateEmail(email);
                                     break;
                                 }
-                                catch (PhoneException ex)
+                                catch (EmailException ex)
                                 {
                                     Console.WriteLine("Wrong format for email !");
                                     continue;
@@ -288,7 +288,7 @@ while (true)
                                     Utility.ValidateEmail(email);
                                     break;
                                 }
-                                catch (PhoneException ex)
+                                catch (EmailException ex)
                                 {
                                     Console.WriteLine("Wrong format for email !");
                                     continue;
@@ -328,16 +328,27 @@ while (true)
             }
         case "2":
             {
-                Console.WriteLine("Enter employeeId: ");
-                int employeeId = Convert.ToInt32(Console.ReadLine());
+                int employeeId;
+                while (true)
+                {
+                    try
+                    {
+                        Console.WriteLine("Enter employeeId: ");
+                         employeeId = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    } catch(Exception ex)
+                    {
+                        Console.WriteLine("Id is a number, enter again ");
+                        continue;
+                    }
+                }
+                
                 if (manager.CheckEmployeeExist(employeeId))
                 {
                     string fullname;
                     string birthday;
                     string phone;
                     string email;
-                    Console.WriteLine("Enter ID: ");
-                    int id = Convert.ToInt32(Console.ReadLine());
                     while (true)
                     {
                         try
@@ -394,7 +405,7 @@ while (true)
                             Utility.ValidateEmail(email);
                             break;
                         }
-                        catch (PhoneException ex)
+                        catch (EmailException ex)
                         {
                             Console.WriteLine("Wrong format for email !");
                             continue;
@@ -413,8 +424,21 @@ while (true)
             }
         case "3":
             {
-                Console.WriteLine("Enter employeeId: ");
-                int employeeId = Convert.ToInt32(Console.ReadLine());
+                int employeeId;
+                while (true)
+                {
+                    try
+                    {
+                        Console.WriteLine("Enter employeeId: ");
+                        employeeId = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Id is a number, enter again ");
+                        continue;
+                    }
+                }
                 if (manager.CheckEmployeeExist(employeeId))
                 { 
                     manager.DeleteEmployee(employeeId);
